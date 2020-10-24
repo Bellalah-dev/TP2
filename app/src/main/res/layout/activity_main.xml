@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <!--TODO (6) Delete this TextView-->
+    <EditText
+        android:id="@+id/et_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:hint="enter a query and then click search"/>
+
+
+
+
+    <TextView
+        android:id="@+id/tv_url_display"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="search"
+        android:textSize="22sp" />
+
+
+    <ScrollView
+
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/tv_github_search_results_json"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/make_search"
+            android:textSize="18sp" />
+    </ScrollView>
+
+
+
+</LinearLayout>
